@@ -1,0 +1,14 @@
+#jqSeting{position:relative;margin:0px auto 20px auto;padding:20px;width:1238px;height:180px;background: #fff;border:1px solid #ecf1f5;}
+#jqSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#jqSeting a.sMore{position:absolute;top:20px;right:20px; display: block;line-height:30px;padding:0 25px;border:1px solid #e0e0e0;font-size: 13px;}
+#jqSeting a.sMore:hover{color:#2196f3;border:1px solid #2196f3;}
+#jqSeting ul.jsSelect{margin-top:20px;z-index:9999;margin-left: 15px;}
+#jqSeting ul.jsSelect li{float: left;padding-right:45px;background: url("images/unckeck.png") 0 2px no-repeat;text-indent: 28px;line-height: 20px;}
+.clear{clear:both;line-height:1px;height:1px;}
+#jqSeting ul.jsSelect li:hover{cursor:pointer;}
+#jqSeting ul.jsSelect li.select{background: url("images/check.png") 0 1px no-repeat;}
+#jqSeting ul.jsData{margin-top:35px;height: 55px;}
+#jqSeting ul.jsData li{float: left;padding:0 70px 0 0px;border-right:1px solid #e4e4e4;height:55px;}
+#jqSeting ul.jsData li span{float:left;padding-left:15px;display: block;height:55px;}
+#jqSeting ul.jsData li span.jsDataL{line-height:55px;font-size: 42px;}
+#jqSeting ul.jsData li span.jsDatar{padding-top:7px;line-height:20px;}

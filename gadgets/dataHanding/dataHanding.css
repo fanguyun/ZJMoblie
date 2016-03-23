@@ -1,0 +1,100 @@
+#dataHandSeting{position:relative;margin:20px auto;padding:20px;width:1238px;height:610px;background: #fff;border:1px solid #ecf1f5;}
+#dataHandSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#dataHandSeting a.sMore{position:absolute;top:20px;right:20px; display: block;line-height:30px;padding:0 25px;border:1px solid #e0e0e0;font-size: 13px;}
+#dataHandSeting a.sMore:hover{color:#2196f3;border:1px solid #2196f3;}
+#dataHandSeting .dataCont{width:1146px;height:530px;margin:25px auto 0 auto;position:relative;}
+/*LEFT*/
+#dataHandSeting .dataCont #dataClass{position:absolute;top:0;left:0;width:395px;height:530px; background: url("images/leftbg.png") 0 20px no-repeat;}
+#dataHandSeting .dataCont #dataClass .clasListData{width:135px;height:420px;margin:55px 0 0 70px;}
+#dataHandSeting .dataCont #dataClass .clasListData h4.clisDtitle{text-align: center;color:#666;line-height: 30px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow{height:390px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li{position:relative;min-height:16px;font-size: 13px;text-align: center;border-top:2px solid #fff;color:#fff;line-height: 16px;cursor: pointer;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li div{margin: auto;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li p.jishub{position: absolute;left:-53px;top:50%;margin-top:-9px;font-size: 18px;width:45px;text-align: right;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li svg{z-index:100;width:260px;height:380px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li div{overflow: hidden; z-index:333;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li span{position: absolute;display: block;width: 150px;left:140px;height:22px;text-align: left;z-index:333;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li ol.positionObj{position:absolute;top:0;left:140px;background: #333;color:#333;text-align: center;width:146px;padding:10px 5px;z-index: 444;border-radius: 5px;color:#fff;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;line-height: 16px; filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity: 0.6; opacity: 0.6;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow1{background:#a788f5;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow1 p.jishub{color:#a788f5;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow1 svg{position:absolute;left:140px;top:10px;font-size: 13px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow1 span.xianData1{color:#a788f5;top:-2px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow2{background:#8dd873;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow2 svg{position:absolute;left:140px;top:10px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow2 p.jishub{color:#8dd873;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow2 span.xianData2{color:#8dd873;top:-1px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow3{background:#fdc062;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow3 svg{position:absolute;left:140px;top:10px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow3 p.jishub{color:#fdc062;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow3 span.xianData3{color:#fdc062;top:-2px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow4{ background:#ff9866;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow4 svg{width:360px;height:30px;position:absolute;left:140px;bottom:53px;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow4 p.jishub{color:#ff9866;}
+#dataHandSeting .dataCont #dataClass .clasListData ul#clistShow li#clSHow4 span.xianData4{color:#ff9866;bottom:68px;}
+/*CENTER*/
+#dataHandSeting .dataCont #setingCenter{position:absolute;top:0;left:330.5px;width:485px;padding-top:45px;}
+#dataHandSeting .dataCont #setingCenter h3.kztitle{text-align: center;color:#666;margin-bottom:15px;}
+#dataHandSeting .dataCont #setingCenter .bigTy{position:relative;width:480px;height:371px; background: url('images/kzbg.png') 0 0 no-repeat;}
+#dataHandSeting .dataCont #setingCenter .bigTy .sjText1{position:absolute;top:86px;left:190px;}
+#dataHandSeting .dataCont #setingCenter .bigTy .sjText2{position:absolute;top:205px;left:90px;}
+#dataHandSeting .dataCont #setingCenter .bigTy .sjText3{position:absolute;top:330px;left:218px;}
+#dataHandSeting .dataCont #setingCenter .bigTy .sjText4{position:absolute;top:210px;left:260px;}
+
+/*RIGHT*/
+#dataHandSeting .dataCont #classPlace{position:absolute;top:0;right:0;width:395px;height:530px; background: url("images/rightbg.png") right 20px no-repeat;}
+#dataHandSeting .classPlaceBG{position:absolute;top:100px;right:190px;width:288px;height:313px;background: url("images/rightxx.png") 0 0 no-repeat;}
+#dataHandSeting .dataCont #classPlace .placeLast{width:135px;height:420px;margin:55px 0 0 220px;position:relative;}
+#dataHandSeting .dataCont #classPlace .placeLast h4{text-align: center;color:#666;line-height: 30px;}
+#dataHandSeting .dataCont #classPlace .placeLast ul.dataListSt{height:390px;}
+#dataHandSeting .dataCont #classPlace .placeLast ul.dataListSt li{font-size: 13px;border-top:2px solid #fff; background-color: #ecf9ff;color:#999;text-align: center;  background-repeat: no-repeat;cursor: pointer;}
+#dataHandSeting .dataCont #classPlace .placeLast ul.dataListSt li.xianxi1{height:22px;line-height: 22px;padding-top: 26px;background-image: url("images/data1.png"); background-position:center 8px;}
+#dataHandSeting .dataCont #classPlace .placeLast ul.dataListSt li.xianxi2{height:22px;line-height: 22px;padding-top: 36px;background-image: url("images/data2.png"); background-position:center 10px;}
+#dataHandSeting .dataCont #classPlace .placeLast ul.dataListSt li.xianxi3{height:22px;line-height: 22px;padding-top: 26px;background-image: url("images/data3.png"); background-position:center 8px;}
+#dataHandSeting .dataCont #classPlace .placeLast ul.dataListSt li.xianxi4{height:22px;line-height: 22px;padding-top: 46px;background-image: url("images/data4.png"); background-position:center 9px;}
+#dataHandSeting .dataCont #classPlace .placeLast ul.dataListSt li.xianxi5{height:22px;line-height: 22px;padding-top: 26px;background-image: url("images/data3.png"); background-position:center 8px;}
+#dataHandSeting .dataCont #classPlace .placeLast ul.dataListSt li.xianxi6{height:22px;line-height: 22px;padding:62px 0 22px 0;background-image: url("images/data5.png"); background-position:center 29px;}
+#dataHandSeting .dataCont #classPlace .placeLast .rightBdata{position:absolute;font-size: 13px;color:#60bbea;}
+#rightBdata0{top:36px;left:-115px;}
+#rightBdata1{top:189px;left:-158px;}
+#rightBdata2{top:338px;left:-180px;}
+
+
+/*bottom*/
+#dataHandSeting .dataClassNum{position:absolute;top:2px;left:254px;}
+#dataHandSeting .dataClassNum span{color:#999;vertical-align:top;}
+#dataHandSeting .dataClassNum b{font-size: 36px;font-weight: normal;}
+#dataHandSeting .totalNum{position:absolute;top:505px;left:140px;}
+#dataHandSeting .totalNum ul{position: relative;width:1008px;}
+#dataHandSeting .totalNum ul li{position:absolute;color:#999;}
+#dataHandSeting .totalNum ul li.dataTotal{width:250px;top:-17px;left:0}
+#dataHandSeting .totalNum ul li.dataTotal b{font-size: 36px;font-weight: normal;color:#333;}
+#dataHandSeting .totalNum ul li.facNum{width:150px;top:-30px;left:280px;text-align: center; line-height: 22px;}
+#dataHandSeting .totalNum ul li.etlLmun{width:150px;top:-30px;left:450px;text-align: center;line-height: 22px;}
+#dataHandSeting .totalNum ul li.fenfanum{width:250px;top:-17px;right:155px;text-align: right;}
+#dataHandSeting .totalNum ul li.fenfanum b{font-size: 36px;font-weight: normal;color:#333;}
+
+/*箭头*/
+#dataHandSeting .arrow1{position:absolute;width:7px;height:6px;top:248px;left:395px;z-index:222;background: url("images/1.png") 0 0 no-repeat;}
+#dataHandSeting .arrow2{position:absolute;width:7px;height:6px;top:268px;left:395px;z-index:222;background: url("images/2.png") 0 0 no-repeat;}
+#dataHandSeting .arrow3{position:absolute;width:7px;height:6px;top:289px;left:395px;z-index:222;background: url("images/3.png") 0 0 no-repeat;}
+#dataHandSeting .arrow4{position:absolute;width:7px;height:6px;top:405px;left:495px;z-index:222;background: url("images/4.png") 0 0 no-repeat;}
+/*rightLine*/
+.rightSvgline{position:absolute;top:80px;right:180px;width:300px;height:400px;}
+.rightSvgline svg{width:300px;height:400px;}
+.rightlineArow1{position: absolute;top:98px;right:180px;width:13px;height:10px;background: url("images/5.png") 0 0 no-repeat;z-index:9999;}
+.rightlineArow2{position: absolute;top:158px;right:180px;width:13px;height:10px;background: url("images/5.png") 0 0 no-repeat;z-index:9999;}
+.rightlineArow3{position: absolute;top:213px;right:180px;width:13px;height:10px;background: url("images/5.png") 0 0 no-repeat;z-index:9999;}
+.rightlineArow4{position: absolute;top:281px;right:180px;width:13px;height:10px;background: url("images/5.png") 0 0 no-repeat;z-index:9999;}
+.rightlineArow5{position: absolute;top:331px;right:180px;width:13px;height:10px;background: url("images/5.png") 0 0 no-repeat;z-index:9999;}
+.rightlineArow6{position: absolute;top:401px;right:180px;width:13px;height:10px;background: url("images/5.png") 0 0 no-repeat;z-index:9999;}
+svg .path {
+    stroke-dasharray: 8;
+    stroke-dashoffset: 1000;
+    animation: dash 20s linear infinite;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

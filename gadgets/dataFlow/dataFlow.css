@@ -1,0 +1,19 @@
+#dataFlowSeting{position:relative;margin:0px auto 20px auto;padding:20px;width:1238px;background: #fff;border:1px solid #ecf1f5;}
+#dataFlowSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#dataFlowSeting a.sMore{position:absolute;top:20px;right:20px; display: block;line-height:30px;padding:0 25px;border:1px solid #e0e0e0;font-size: 13px;}
+#dataFlowSeting a.sMore:hover{color:#2196f3;border:1px solid #2196f3;}
+#dataFlowSeting .dataFlowCont{position:relative;width:1160px;margin:20px 0 0 70px;min-height:300px;}
+#dataFlowSeting .dataFlowCont .dataListMain{position:absolute;width:120px;}
+#dataFlowSeting .dataFlowCont .dataListMain h4{font-weight: normal;color:#666;}
+#dataFlowSeting .dataFlowCont .dataListMain ul{width:38px;margin-top: 20px;position: relative;}
+#dataFlowSeting .dataFlowCont .dataListMain ul li{position:relative;margin-top:12px;width:36px;min-height:2px;border:1px solid #999;background: #ccc;z-index:222;}
+#dataFlowSeting .dataFlowCont .dataListMain ul li span{position:absolute;top:0;left:40px;font-size:12px; display: block;width:120px;z-index:111;}
+#dataFlowSeting .dataFlowCont .dataListMain ul li:hover{cursor: pointer;}
+#dataFlowSeting .dataFlowCont .dataListMain ul li:hover div{display: block;}
+#dataFlowSeting .dataFlowCont svg{position:absolute;top:0;left:0;}
+#dataFlowSeting .dataFlowCont #dataBoss{left:0;}
+#dataFlowSeting .dataFlowCont #factyList{left:280px;}
+#dataFlowSeting .dataFlowCont #etlKfa{left:530px;}
+#dataFlowSeting .dataFlowCont #hadPoo{left:750px;}
+#dataFlowSeting .dataFlowCont #baseList{left:975px;}
+.shujulTips{position:absolute;top:0px;left:90px;z-index:9999;width:110px; line-height:20px;background: #333;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;color:#fff;font-size:13px;padding:8px;-o-border-radius:5px;filter:alpha(opacity=80);/*支持IE浏览器*/-moz-opacity:0.80;/*支持FireFox浏览器*/opacity:0.80;/*支持*/display: none;}

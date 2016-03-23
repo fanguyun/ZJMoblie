@@ -1,0 +1,43 @@
+li{list-style: none;}
+#hdfsCont{position:relative;margin:0px auto 20px auto;padding:20px;width:1238px;min-height:450px;background: #fff;border:1px solid #ecf1f5;}
+#hdfsCont h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#hdfsCont li.sMore{position:absolute;top:20px;right:20px;}
+#hdfsCont li.sMore a{padding:0 25px;line-height:30px;border:1px solid #e0e0e0;display: block;font-size: 13px;}
+#hdfsCont li.sMore a:hover{color:#2196f3;border:1px solid #2196f3;}
+#hdfsCont li.sMore:hover #hdfsList{display: block;}
+#hdfsCont li.sMore #hdfsList{position:absolute;display:none;top:32px;right:0;border:5px solid #aaaaaa;padding:10px;width:236px;background: #fff;z-index:100;}
+#hdfsCont li.sMore #hdfsList p.machtitle{font-size: 13px;line-height: 25px;text-align: center;}
+#hdfsCont li.sMore #hdfsList ul.machNum{width:220px;font-size:11px;line-height:10px;height:10px;padding-left:16px;position:relative;}
+#hdfsCont li.sMore #hdfsList ul.machNum li{position:absolute;width:20px;height:10px;color:#ccc;top:0;}
+#hdfsCont li.sMore #hdfsList ul.machNum li.num15{left:67px;}
+#hdfsCont li.sMore #hdfsList ul.machNum li.num10{left:123px;}
+#hdfsCont li.sMore #hdfsList ul.machNum li.num05{right:33px;}
+#hdfsCont li.sMore #hdfsList ul.machNum li.num01{right:-10px;}
+
+#hdfsCont li.sMore #hdfsList ul.jflist{margin:5px 0;clear: both;width:236px;height:10px;}
+#hdfsCont li.sMore #hdfsList ul.jflist li{font-size: 13px;color:#ccc;}
+#hdfsCont li.sMore #hdfsList ul.jflist li.leftText{float: left; font-size: 12px; line-height: 10px;}
+#hdfsCont li.sMore #hdfsList ul.jflist li.rightShow{float: right;}
+#hdfsCont li.sMore #hdfsList ul.jflist li.rightShow span{display: block;width:10px;height:8px;border:1px solid #ccc;float: right;  margin-right:-1px;}
+#hdfsCont li.sMore #hdfsList ul.jflist li.rightShow span.colorGren,#hdfsCont li.sMore #hdfsList ul.jflist li.rightShow span.nocolor{background:#ededed;}
+li#edataList,li#ddataList{cursor:pointer;}
+li#edataList:hover span.colorGren,li#ddataList:hover span.colorGren{ background: #89c997!important;}
+li#edataList:hover span.colorGren,li#ddataList:hover span{border:1px solid #333!important;}
+.clear{clear:both;}
+#hdfsCont .machList{padding:0 29px;margin:25px;width:1130px;clear: both;}
+#hdfsCont .machList .machShow{float:left;width:91px; height:273px;padding:11px;}
+#hdfsCont .machList .machShow li.machText{line-height:35px;text-align: center;height:35px;}
+#hdfsCont .machList .machShow li.machShowList{width:91px;height:238px;background: url("images/mcbg.png") no-repeat 0 0;position: relative;}
+#hdfsCont .machList .machShow li.machShowList span{ display: block;width:77px;height:11px;margin:0 7px;position:absolute;}
+#hdfsCont .machList .machShow li.machShowList span.normal{ background: url("images/mcgren.png") no-repeat 0 0;}
+#hdfsCont .machList .machShow li.machShowList span.warn{ background: url("images/mcred.png") no-repeat 0 0;}
+
+#hdfsCont .machList .machShow li.machShowListok{width:91px;height:238px;background: url("images/mcbgok.png") no-repeat 0 0;position: relative;}
+#hdfsCont .machList .machShow li.machShowListok:hover{cursor: pointer;background: url("images/mcbghover.png") no-repeat 0 0;}
+#hdfsCont .machList .machShow li.machShowListok span{ display: block;width:77px;height:11px;margin:0 7px;position:absolute;}
+#hdfsCont .machList .machShow li.machShowListok span.normal{ background: url("images/mcgok.png") no-repeat 0 0;}
+#hdfsCont .machList .machShow li.machShowListok span.normal:hover{background: url("images/mcghover.png") no-repeat 0 0;}
+#hdfsCont .machList .machShow li.machShowListok span.warn{ background: url("images/mcred.png") no-repeat 0 0;}
+
+#hdfsCont .machList .machShow li.machShowListok span div{position:absolute;width:200px;top:13px;left:-10px;z-index:9999; line-height:22px;background: #333;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;color:#fff;font-size:13px;padding:8px;-o-border-radius:5px;filter:alpha(opacity=80);/*支持IE浏览器*/-moz-opacity:0.80;/*支持FireFox浏览器*/opacity:0.80;/*支持*/display: none;}
+#hdfsCont .machList .machShow li.machShowListok span:hover div{display: block;}

@@ -1,0 +1,5 @@
+#etlConSeting{position:relative;margin:20px auto;padding:20px;width:1238px;min-height:320px;background: #fff;border:1px solid #ecf1f5;}
+#etlConSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#etlConSeting a.sMore{position:absolute;top:20px;right:20px; display: block;line-height:30px;padding:0 25px;border:1px solid #e0e0e0;font-size: 13px;}
+#etlConSeting a.sMore:hover{color:#2196f3;border:1px solid #2196f3;}
+#etlConSeting .etlLineCont{padding:10px 0;}

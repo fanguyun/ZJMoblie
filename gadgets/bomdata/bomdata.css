@@ -1,0 +1,20 @@
+#bomSeting{position:relative;padding:20px;width:588px;height:440px;background: #fff;border:1px solid #ecf1f5;}
+#bomSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#bomSeting a.sMore{position:absolute;top:20px;right:20px; display: block;line-height:30px;padding:0 25px;border:1px solid #e0e0e0;font-size: 13px;}
+#bomSeting a.sMore:hover{color:#2196f3;border:1px solid #2196f3;}
+#bomSeting h2.title span.smalTitle{font-size: 13px;}
+#bomSeting ul.jsSelect{margin-top:20px;position:relative;z-index:9999;margin-left: 15px;}
+#bomSeting ul.jsSelect li{float: left;padding-right:45px;background: url("images/unckeck.png") 0 2px no-repeat;text-indent: 28px;line-height: 20px;}
+.clear{clear:both;line-height:1px;height:1px;}
+#bomSeting ul.jsSelect li:hover{cursor:pointer;}
+#bomSeting ul.jsSelect li.select{background: url("images/check.png") 0 1px no-repeat;}
+.clear{clear:both;line-height:1px;height:1px;}
+.bomCont{position:absolute;left:-35px;top:60px;margin-top:15px;}
+.fl{float:left;}
+.fr{float:right;}
+#bomSeting ul.dataColor{margin:0 auto;width:210px;position: absolute;bottom:22px;left:220px;}
+#bomSeting ul.dataColor li{position:relative;float: left;font-size: 13px;width:70px;text-indent:18px;}
+#bomSeting ul.dataColor li span{position: absolute;top:2px;left:2px; display: block;width:10px;height:10px;}
+#bomSeting ul.dataColor li span.green{ background: #86bc70;}
+#bomSeting ul.dataColor li span.yellow{ background: #f7b652;}
+#bomSeting ul.dataColor li span.blue{ background: #00b7f0;}

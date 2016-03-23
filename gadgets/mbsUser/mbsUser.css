@@ -1,0 +1,10 @@
+#mbsUserSeting{position:relative;padding:20px;margin-top:20px;width:264px;height:320px;background: #fff;border:1px solid #ecf1f5;}
+#mbsUserSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#mbsUserSeting h2.title span.smalTitle{font-size: 13px;}
+.fl{float: left;}
+.fr{float: right;}
+#mbsUserSeting ul.serviceDataColor{margin:10px auto;width:80px;}
+#mbsUserSeting ul.serviceDataColor li{position:relative;float: left;font-size: 13px;width:40px;text-indent:18px;}
+#mbsUserSeting ul.serviceDataColor li span{position: absolute;top:2px;left:2px; display: block;width:10px;height:10px;}
+#mbsUserSeting ul.serviceDataColor li span.blue{ background: #3bc0e1;}
+#mbsUserSeting ul.serviceDataColor li span.green{ background: #86bc70;}

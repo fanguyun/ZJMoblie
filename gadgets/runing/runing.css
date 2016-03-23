@@ -1,0 +1,7 @@
+#runSeting{position:relative;padding:20px;margin-top:20px;width:588px;height:440px;background: #fff;border:1px solid #ecf1f5;}
+#runSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#runSeting h2.title span.smalTitle{font-size: 13px;}
+#runSeting a.sMore{position:absolute;top:20px;right:20px; display: block;line-height:30px;padding:0 25px;border:1px solid #e0e0e0;font-size: 13px;}
+#runSeting a.sMore:hover{color:#2196f3;border:1px solid #2196f3;}
+.fl{float:left;}
+.fr{float:right;}

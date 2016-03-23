@@ -1,0 +1,13 @@
+#mylinkSeting{position:relative;margin:20px auto 0px auto;padding:20px;width:1238px;height:180px;background: #fff;border:1px solid #ecf1f5;}
+#mylinkSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#mylinkSeting a.sMore{position:absolute;top:20px;right:20px; display: block;line-height:30px;padding:0 25px;border:1px solid #e0e0e0;font-size: 13px;}
+#mylinkSeting a.sMore:hover{color:#2196f3;border:1px solid #2196f3;}
+#mylinkSeting .linkList{height:120px;padding:30px;}
+#mylinkSeting .linkList li{float:left;width:180px;text-align: center;}
+#mylinkSeting .linkList li a{ display: block;height:30px;width:180px;padding-top:70px;line-height: 30px;}
+#mylinkSeting .linkList li a.setJk{ background: url("images/setingjk.png") 75px 20px no-repeat;}
+#mylinkSeting .linkList li a.safeCl{ background: url("images/safecl.png") 68px 15px no-repeat;}
+#mylinkSeting .linkList li a.dataJk{ background: url("images/dataf.png") 60px 16px no-repeat;}
+#mylinkSeting .linkList li a.datFing{ background: url("images/datafind.png") 56px 18px no-repeat;}
+#mylinkSeting .linkList li a.acunt{ background: url("images/actun.png") 67px 22px no-repeat;}
+#mylinkSeting .linkList li a.moreLink{ background: url("images/more.png") 70px 40px no-repeat;}

@@ -1,0 +1,29 @@
+.fl{float:left;}
+.fr{float:right;}
+#head{width:100%;height:70px;background:#282e3e;min-width: 1280px;margin-bottom:35px;}
+#head .headCont{width:1280px;margin:0 auto;}
+#head .headCont .logo{margin-top:15px;width: 307px;padding-left:10px;}
+#head .headCont .head_menu{padding-left:85px;}
+#head .headCont .head_menu ul#mbTopMenu{height:70px;line-height: 70px;}
+#head .headCont .head_menu ul#mbTopMenu>li{float:left;width:110px;height:67px;position:relative;}
+#head .headCont .head_menu ul#mbTopMenu>li a{display:block;width:110px;height:67px;boeder-bottom:3px solid #282e3e;text-align:center;color:#fff;}
+#head .headCont .head_menu ul#mbTopMenu>li a:hover{color:#2196f3;border-bottom:3px solid #2196f3;}
+.menuSelect{color:#2196f3 !important;border-bottom:3px solid #2196f3;}
+.mainCont{width:1280px;margin:0 auto;}
+#head .headCont .head_menu ul#mbTopMenu li ul.twoMenu{position:absolute;width:110px;z-index:9999;top:70px; display: none;}
+#head .headCont .head_menu ul#mbTopMenu li ul.twoMenu li{height:31px;line-height: 30px;float: none;}
+#head .headCont .head_menu ul#mbTopMenu li ul.twoMenu li a{display: block;width:110px;height:30px;background:#282e3e;color:#fff;font-size: 13px;border-bottom:1px solid #2196f3;}
+#head .headCont .head_menu ul#mbTopMenu li ul.twoMenu li a:hover{color:#2196f3;border-bottom:1px solid #2196f3;}
+#head .headCont .head_menu ul#mbTopMenu li:hover ul.twoMenu{display: block}
+#head .headCont #userInfo{float:right;height:70px;padding:0 3px;}
+#head .headCont #userInfo .userlist{margin:0 5px;}
+#head .headCont #userInfo #userInfoPic{margin-top:19px;}
+#head .headCont #userInfo #userInfoName{color:#fff;line-height: 70px;font-size: 13px;}
+#head .headCont #userInfo #userInfoList{position:relative;width:22px;height:70px; background: url("images/userInfolist.png") no-repeat center center;cursor:pointer;}
+#head .headCont #userInfo #userInfoList:hover ul{ display: block;}
+#head .headCont #userInfo #userInfoList ul{ display:none;position:absolute;width:110px; background: #fff;top:69px;right:0;border:1px solid #282e3e;}
+#head .headCont #userInfo #userInfoList ul li{width:110px;line-height: 30px;text-align: center;}
+#head .headCont #userInfo #userInfoList ul li a{ display: block;width:110px;height:30px;font-size: 13px;}
+#head .headCont #userInfo #userInfoList ul li a:hover{color:#2196f3;}
+.addMenu{width:20px;height:20px;margin:25px;}
+.addMenu a{ display: block;width:20px;height:20px; background: url("images/addMenu.png") no-repeat 0 center;}

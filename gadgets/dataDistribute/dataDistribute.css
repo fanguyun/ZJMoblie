@@ -1,0 +1,10 @@
+#disSeting{position:relative;padding:20px;margin-top:20px;width:588px;height:440px;background: #fff;border:1px solid #ecf1f5;}
+#disSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#disSeting h2.title span.smalTitle{font-size: 13px;}
+.fl{float: left;}
+.fr{float: right;}
+#disSeting ul.serviceDataColor{margin:0 auto;width:140px;}
+#disSeting ul.serviceDataColor li{position:relative;float: left;font-size: 13px;width:70px;text-indent:18px;}
+#disSeting ul.serviceDataColor li span{position: absolute;top:2px;left:2px; display: block;width:10px;height:10px;}
+#disSeting ul.serviceDataColor li span.green{ background: #86bc70;}
+#disSeting ul.serviceDataColor li span.red{ background: #d40000;}

@@ -1,0 +1,77 @@
+<link ng-href="gadgets/head/head.css" href="gadgets/head/head.css" type="text/css" rel="stylesheet"/>
+<div id="head">
+    <div class="headCont">
+        <div class="logo fl"><img src="gadgets/head/images/logo.png"></div>
+        <div class="head_menu fl">
+            <ul id="mbTopMenu">
+                <li><a href="#main">全局概览</a></li>
+                <li><a href="#dataIntegration">数据集成</a></li>
+                <li><a href="#clusterManagement">集群管理</a>
+                    <!--<ul class="twoMenu">
+                        <li><a href="#clusterManagement">集群管理</a></li>
+                        <li><a href="#hdfsShow">HDFS设备视图</a></li>
+                    </ul>-->
+                </li>
+                <li><a href="#dataGovernance">数据治理</a></li>
+            </ul>
+        </div>
+        <div class="addMenu fl"><a href="javascript:void(0)"></a></div>
+        <div id="userInfo">
+            <div id="userInfoList" class="fr userlist">
+                <ul>
+                    <li><a href="javascript:void(0)" id="logout">退出</a></li>
+                </ul>
+            </div>
+            <div id="userInfoPic" class="fr userlist"></div>
+            <div id="userInfoName" class="fr userlist"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var userInfo={
+        userInfoGet:function(){
+            var url="gadgets/head/getUser.json"
+            //var url="/console/u-route/portal-home/getUser?t="+new Date().getTime();
+            //var url1="/console/u-route/portal-home/getLogoutAddress?t="+new Date().getTime();
+            $.ajax({
+                 type : 'POST',
+                 url : url,
+                 data:JSON.stringify({"model":"null","params":{}}),
+                 timeout:10000,
+                 dataType:"json",
+                 contentType:"application/json",
+                 success : function(data) {
+                     if(data){
+                        $("#userInfoName").text(data.loginName);
+                        if(data.gender=="1"){
+                            $("#userInfoPic").html("<img src='gadgets/head/images/top_male.png' width='30px' height='30px'>");
+                        }else{
+                            $("#userInfoPic").html("<img src='gadgets/head/images/userpic.png' width='30px' height='30px'>");
+                        }
+                     }               
+                 },
+                 error : function() {
+                    console.log("error-userInfoGet");
+                 }
+            })
+            $.ajax({
+                 type : 'POST',
+                 url : url1,
+                 data:JSON.stringify({"model":"null","params":{}}),
+                 timeout:10000,
+                 dataType:"json",
+                 contentType:"application/json",
+                 success : function(data) {
+                     if(data){
+                        $("#logout").attr("href",data)
+                    }               
+                 },
+                 error : function() {
+                    console.log("error-loginout");
+                 }
+            })
+
+        }
+    }
+    userInfo.userInfoGet();
+</script>

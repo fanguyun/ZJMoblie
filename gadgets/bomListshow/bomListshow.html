@@ -1,0 +1,86 @@
+<!--数据治理->数据云图-->
+<link ng-href="gadgets/bomListshow/bomListshow.css" href="gadgets/bomListshow/bomListshow.css" type="text/css" rel="stylesheet">
+<div id="bomListShow">
+    <ul class="tabMenu" id="tabMenu">
+        <li class="active"><a href="javascript:void(0)">B/O/M域数据资产分布</a></li>
+        <li><a href="javascript:void(0)">主题域数据资产分布</a></li>
+    </ul>
+    <div id="tabMain">
+        <!--B/O/M域运行监控-->
+        <div class="tabCont">
+            <!-- <ul class="jsSelect">
+                <li class="select">容量</li>
+                <li>个数</li>
+            </ul> -->
+            <div id="bomListShowCanvas" class="bomListShowCanvas" style="width:880px;height:460px;"></div>
+            <div class="bomtable">
+                <ul class="tableListHead">
+                    <li>图例</li>
+                    <li>领域</li>
+                    <li>容量(TB)</li>
+                    <li>增长趋势</li>
+                </ul>
+                <ul class="tableList">
+                    <li class="oColor"><span></span></li>
+                    <li>O域</li>
+                    <li id="odataShow">0</li>
+                    <li id="tableoSvg"></li>
+                </ul>
+                <ul class="tableList">
+                    <li class="bColor"><span></span></li>
+                    <li>B域</li>
+                    <li id="bdataShow">0</li>
+                    <li id="tablebSvg"></li>
+                </ul>
+                <ul class="tableList">
+                    <li class="mColor"><span></span></li>
+                    <li>M域</li>
+                    <li id="mdataShow">0</li>
+                    <li id="tablemSvg"></li>
+                </ul>
+            </div>
+        </div>
+        <!--主题域数据资产分布-->
+        <div class="tapialCont" style="display: none">
+            <!--全景图-->
+            <div id="barSameShow">
+                <p class="linkFlow">全景图</p>
+                <input type="text" placeholder="输入域名称" class="serchText">
+                <a href="javascript:void(0)" class="serchBtn"></a>
+                <div class="pathCont fl" id="pathCont"></div>
+                <div class="bomtablet">
+                    <ul class="tableListHead">
+                        <li>图例</li>
+                        <li>主题域</li>
+                        <li>实体个数</li>
+                        <li>增长趋势</li>
+                    </ul>
+                    <ul class="rightTableList" id="rightTableList"></ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--详细分布图-->
+            <div id="barListShow" class="none">
+                <p class="linkFlow">全景图 > <span id="mianbaoxie"></span></p>
+                <input type="text" placeholder="输入实体名称" class="serchText">
+                <a href="javascript:void(0)" class="serchBtn"></a>
+                <ul id="barListShowCont"></ul>
+                <div id="barListShowOne">
+                    <h3>个人客户</h3>
+                    <h4><span></span>Basic Information</h4>
+                    <ul class="ownListOne">
+                        <li><span class="ownL">Business Name:</span><span class="ownR">Event-GPRS Records</span></li>
+                        <li><span class="ownL">Entity Name:</span><span class="ownR">DW_BF_GPRS_CAIL_T</span></li>
+                        <li><span class="ownL">Entity Type:</span><span class="ownR">Regular Table</span></li>
+                        <li><span class="ownL">Description:</span><span class="ownR">GPRS standards service records after pricing.</span></li>
+                        <li><span class="ownL">Creator:</span><span class="ownR">Zhou Yiyuan</span></li>
+                        <li><span class="ownL">Created Date:</span><span class="ownR">2014-7-10</span></li>
+                    </ul>
+                </div>
+                <div id="btnPrev" class="fanPage"></div>
+                <div id="btnNext" class="fanPage"></div>
+                <div class="pageNumshow" id="pageNumshow"></div>
+            </div>
+        </div>
+    </div>
+</div>

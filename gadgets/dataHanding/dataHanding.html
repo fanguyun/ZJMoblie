@@ -1,0 +1,108 @@
+<link ng-href="gadgets/dataHanding/dataHanding.css" href="gadgets/dataHanding/dataHanding.css" type="text/css" rel="stylesheet"/>
+<div id="dataHandSeting">
+    <h2 class="title">数据采集分发流程</h2>
+    <a href="#dataIntegration" class="sMore">查看全部</a>
+    <div class="dataCont">
+        <!--数据源种类-->
+        <div id="dataClass">
+            <div class="clasListData">
+                <h4 class="clisDtitle">B/O/M域</h4>
+                <ul id="clistShow">
+                    <li id="clSHow1">
+                        <!-- <div><p>CRM</p></div>
+                        <p class="jishub">9%</p>
+                        <span class="xianData1">OGG 0.35(TB)</span> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <path class="path" stroke-width="2" stroke="#a788f5" style="fill:#a788f5;" d="M0 5 l120 0 M120 5 l0 152 M120 156 l70 0"/>
+                        </svg>
+                    </li>
+                    <li id="clSHow2">
+                        <!-- <div><p>固网DPI</p></div>
+                        <p class="jishub">17%</p>
+                        <span class="xianData2">FTB 2.58(TB)</span> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <path class="path" stroke-width="2" stroke="#8dd873" style="fill:#8dd873;"/>
+                        </svg>
+
+                    </li>
+                    <li id="clSHow3">
+                        <!-- <div><p>CRM</p><p>BOSS</p><p>资管</p><p>渠道支撑</p><p>公共支撑</p><p>运营管理</p><p>运营管理</p><p>运营管理</p></div>
+                        <p class="jishub">32%</p>
+                        <span class="xianData3">数据库提取 10.58(TB)</span> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <path class="path" stroke-width="2" stroke="#fdc062" style="fill:#fdc062;"/>
+                        </svg>
+                    </li>
+                    <li id="clSHow4">
+                        <!-- <div><p>PS</p><p>CS</p><P>互联网</P></div>
+                        <p class="jishub">42%</p>
+                        <span class="xianData4">KAFKA 25.38(TB)</span> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <path class="path" stroke-width="2" stroke="#ff9866" style="fill:#ff9866;" d="M0 10 l284 0"/>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--箭头-->
+        <div class="arrow1"></div>
+        <div class="arrow2"></div>
+        <div class="arrow3"></div>
+        <div class="arrow4"></div>
+        <!--控制管理中心-->
+        <div id="setingCenter">
+            <h3 class="kztitle">控制管理中心</h3>
+            <div class="bigTy">
+                <div class="sjText1">数据采集交换控制中心</div>
+                <div class="sjText2">采集</div>
+                <div class="sjText3">KAFKA</div>
+                <div class="sjText4">数据采集转化</div>
+            </div>
+        </div>
+        <!--分发地-->
+        <div class="rightSvgline">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <path class="path" stroke-width="2" stroke="#7ecef4" style="fill:#7ecef4;" d="M55 130 l130 0 M185 130 l0 -100 M185 27 l100 0"/>
+                <path class="path" stroke-width="2" stroke="#7ecef4" style="fill:#7ecef4;" d="M55 180 l160 0 M215 180 l0 -93 M215 87 l70 0"/>
+                <path class="path" stroke-width="2" stroke="#7ecef4" style="fill:#7ecef4;" d="M215 180 l0 80 M215 260 l70 0"/>
+                <path class="path" stroke-width="2" stroke="#7ecef4" style="fill:#7ecef4;" d="M215 142 l70 0"/>
+                <path class="path" stroke-width="2" stroke="#7ecef4" style="fill:#7ecef4;" d="M215 210 l70 0"/>
+                <path class="path" stroke-width="2" stroke="#7ecef4" style="fill:#7ecef4;" d="M0 330 l285 0 "/>
+            </svg>
+        </div>
+        <p class="rightlineArow1"></p>
+        <p class="rightlineArow2"></p>
+        <p class="rightlineArow3"></p>
+        <p class="rightlineArow4"></p>
+        <p class="rightlineArow5"></p>
+        <p class="rightlineArow6"></p>
+        <div id="classPlace">
+            <div class="placeLast" id="placeLast">
+                <h4>分发目标</h4>
+                <ul class="dataListSt" id="dataListSt">
+                    <!-- <li class="xianxi1">数据资产管理</li>
+                    <li class="xianxi2">Gbase</li>
+                    <li class="xianxi3">祥单云</li>
+                    <li class="xianxi4">基础分析库</li>
+                    <li class="xianxi5">其他</li>
+                    <li class="xianxi6">IBM STREAMING</li> -->
+                </ul>
+                <!-- <p class="rightBdata" id="rightBdata0">1111</p>
+                <p class="rightBdata" id="rightBdata1">2222</p>
+                <p class="rightBdata" id="rightBdata2">33333</p> -->
+            </div>
+        </div>
+        <!-- <div class="classPlaceBG"></div> -->
+        <!--数据源种类-->
+        <div class="dataClassNum"><span>数据源种类(种)</span><b id="dataClassNum">0</b></div>
+        <!--totalNum-->
+        <div class="totalNum">
+            <ul>
+                <li class="dataTotal"><span>数据总容量(TB)</span> <b id="dataTotal">0</b></li>
+                <li class="facNum"><p>厂家数量(家)</p><p id="facNum">0</p></li>
+                <li class="etlLmun"><p>ETL流程数量(个)</p><p id="etlLmun">0</p></li>
+                <li class="fenfanum"><b id="fenfanum">0</b> <span>分发容量(TB)</span></li>
+            </ul>
+        </div>
+    </div>
+</div>

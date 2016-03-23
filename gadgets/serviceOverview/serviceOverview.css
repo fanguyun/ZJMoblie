@@ -1,0 +1,13 @@
+#serOverSeting{position:relative;padding:20px;width:588px;height:320px;background: #fff;border:1px solid #ecf1f5;}
+#serOverSeting h2.title{font-size: 26px;font-weight:normal;color:#727272;}
+#serOverSeting h2.title span.smalTitle{font-size: 13px;}
+#serOverSeting a.sMore{position:absolute;top:20px;right:20px; display: block;line-height:30px;padding:0 25px;border:1px solid #e0e0e0;font-size: 13px;}
+#serOverSeting a.sMore:hover{color:#2196f3;border:1px solid #2196f3;}
+.fl{float: left;}
+.fr{float: right;}
+#serOverSeting .serOverShow{padding: 5px 0;}
+#serOverSeting ul.serviceDataColor{margin:0 auto;width:140px;}
+#serOverSeting ul.serviceDataColor li{position:relative;float: left;font-size: 13px;width:70px;text-indent:18px;}
+#serOverSeting ul.serviceDataColor li span{position: absolute;top:2px;left:2px; display: block;width:10px;height:10px;}
+#serOverSeting ul.serviceDataColor li span.green{ background: #86bc70;}
+#serOverSeting ul.serviceDataColor li span.red{ background: #d40000;}
