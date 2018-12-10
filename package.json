@@ -1,0 +1,20 @@
+{
+  "name": "zjmoblie",
+  "version": "1.0.0",
+  "description": "ZJ移动大数据 ZJ移动大数据视图",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a 0.0.0.0 -p 8999"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanguyun214/ZJMoblie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanguyun214/ZJMoblie/issues"
+  },
+  "homepage": "https://github.com/fanguyun214/ZJMoblie#readme"
+}
